@@ -297,19 +297,6 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Traffic IoT Controller
-        content: Application for monitoring traffic volume over time. It exploits a convolutional neural network in a distributed environment.
-        image: /images/projects/traffic-iot-controller.jpg
-        badges:
-          - "Scala"
-          - "Python"
-          - "YoloV7"
-          - "Akka"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/BrunoEsposito2/Traffic-IoT-controller/
-
-
       - title: DDoS Framework
         content: Distributed Devices over Scala is a framework for managing smart devices in IoT environments built upon Akka. It provides all the tools to build a virtual environment in which you will be able to monitor the states of sensors and actuators, as well as handling aggregated and derivated data.
         image: /images/projects/ddos-framework.jpg
@@ -327,6 +314,22 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/BrunoEsposito2/DDOS-Framework/
+
+      - title: Traffic IoT Controller
+        content: Application for monitoring traffic volume over time. It exploits a convolutional neural network in a distributed environment.
+        image: /images/projects/traffic-iot-controller.jpg
+        #        featured:
+        #          name: Demo
+        #          link: https://django-converter.herokuapp.com
+        badges:
+          - "Scala"
+          - "Python"
+          - "YoloV7"
+          - "Akka"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/BrunoEsposito2/Traffic-IoT-controller/
+
 
       - title: FOOL Compiler
         content: A Functional Object-Oriented programming Language that supports functional programming, polymorphism, inheritance and recursion.
